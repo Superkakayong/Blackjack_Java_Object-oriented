@@ -1,6 +1,7 @@
 /**
  * This class maintains all the operations that a player can perform.
  */
+
 public abstract class Player{
     protected String playerName;
     protected double money;
