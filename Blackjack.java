@@ -21,6 +21,7 @@ public final class Blackjack extends CardGame {
         prepare(); // Get the player information and print out important messages
         assignPlayerAndDealer(); // Choose the dealer and player randomly
     }
+    
 
     /*
         This is the KEY of this class, which manages all the game logics!
