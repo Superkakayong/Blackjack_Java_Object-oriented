@@ -32,6 +32,7 @@ public class Hand {
         isBlackJack = isBlackJack();
         return isBlackJack;
     }
+    
 
     // Add a card to the current hand
     public void addCard(Card card) {
