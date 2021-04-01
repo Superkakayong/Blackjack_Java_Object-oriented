@@ -46,6 +46,7 @@ public class Card {
         }
 
         contents = suit + " - " + faceStr;
+        
         return "|" + contents + "|";
     }
 }
