@@ -49,7 +49,7 @@ public class Hand {
         // Calculate the current hand value
         for (Card card : handCard) {
             if (card.getFace() >= 2 && card.getFace() <= 10) {
-                // The face of the card is "2"-"10"
+                // The face of the card is "2"-"10"  
                 res += card.getFace();
             } else if (card.getFace() >= 11 && card.getFace() <= 13) {
                 // The face of the card is "Jack"-"King"
@@ -78,6 +78,7 @@ public class Hand {
     // Determine if a hand is a Blackjack (no matter it is natural or not natural)
     private boolean isBlackJack() {
         if (handCard.size() != 2) { return false; }
+        
         return handValue == 21;
     }
 }
