@@ -50,6 +50,7 @@ public final class BlackjackDealer extends Dealer{
     @Override
     public Card reveal() {
         while (dealerHand.getHandValue() < 17) { cardDeck.shuffle(); hit(); }
+        
         return hiddenCard;
     }
 }
