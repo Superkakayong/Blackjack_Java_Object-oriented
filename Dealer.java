@@ -10,6 +10,7 @@ public abstract class Dealer{
 
     public Dealer(String dealerName) {
         this.dealerName = dealerName;
+        
         dealerHand = new Hand();
         cardDeck = new CardDeck();
         cardDeck.shuffle();
