@@ -1,4 +1,4 @@
-import java.util.Scanner;
+import java.util.Scanner; 
 
 /**
  * This class specifically manages the operations of a Blackjack player.
