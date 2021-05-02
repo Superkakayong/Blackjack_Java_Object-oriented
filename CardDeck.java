@@ -6,7 +6,7 @@ import java.util.*;
 public class CardDeck {
     private List<Card> cardDeck;
     private List<Integer> faces;
-    private List<String> suits;
+    private List<String> suits; 
 
     public CardDeck() {
         cardDeck = new ArrayList<>(52);
