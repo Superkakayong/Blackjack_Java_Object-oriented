@@ -13,7 +13,7 @@ public class Card {
     }
 
     public int getFace() {
-        return face;
+        return face; 
     }
 
     public String getSuit() {
