@@ -9,7 +9,7 @@ public class Card {
 
     public Card(int face, String suit) {
         this.face = face;
-        this.suit = suit; 
+        this.suit = suit;
     }
 
     public int getFace() {
