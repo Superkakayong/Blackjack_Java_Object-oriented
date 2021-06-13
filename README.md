@@ -6,7 +6,7 @@
 >
 > **What's up guys!**
 >
-> In this project, I have created a card game called Blackjack. The **core** of this project is its **object-oriented design**, which renders the whole project of high **scalability** and **extendability**.  
+> In this project, I have created a card game called Blackjack. The **core** of this project is its **object-oriented design**, which renders the whole project of high **scalability** and **extendability**.
 
 ---
 
