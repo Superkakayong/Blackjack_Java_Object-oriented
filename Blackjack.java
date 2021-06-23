@@ -1,7 +1,7 @@
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
-import java.util.Scanner; 
+import java.util.Scanner;
 
 /**
  * This is the main class of the Blackjack game. It controls all the game logics.
